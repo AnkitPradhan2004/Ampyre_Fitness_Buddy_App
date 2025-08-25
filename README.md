@@ -1,118 +1,150 @@
 # 🚀 Ampyre Fitness Buddy App
 
-React(https://reactjs.org/)
-TailwindCSS](https://tailwindcss.com/)
-Firebase(https://firebase.google.com/)
-Vercel(https://vercel.com/)
+**Ampyre Fitness Buddy App** is a web-based fitness platform that connects users with similar fitness goals. Users can find workout partners, track progress, follow personalized exercise plans, chat with buddies, shop for fitness products, and stay motivated in a supportive community.
 
-Ampyre Fitness Buddy App** is a web-based fitness platform that connects users with similar fitness goals. Users can find workout partners, track progress, follow personalized exercise plans, chat with buddies, shop for fitness products, and stay motivated in a supportive community.
+🌐 Live Demo: [https://ampyre-fitness-buddy-app-35gt.vercel.app/](https://ampyre-fitness-buddy-app-35gt.vercel.app/)
 
-🌐Live Demo: [https://ampyre-fitness-buddy-app-35gt.vercel.app/](https://ampyre-fitness-buddy-app-35gt.vercel.app/)
+---
+## Presentation video :
+
+https://www.loom.com/share/4c8ae6e8184040a08b055eb924301949?sid=a6ec6853-1583-41f5-a66c-9300b9f1f00c
+
 ## 📌 Project Goal
+
 Create an application where users can:
-- Set fitness goals
-- Track their progress
-- Connect with workout buddies who share similar interests
-- Access workout plans and fitness resources
-- Engage in a collaborative and supportive fitness environment
+
+* Set fitness goals
+* Track their progress
+* Connect with workout buddies who share similar interests
+* Access workout plans and fitness resources
+* Engage in a collaborative and supportive fitness environment
+
+---
 
 ## 🏋️ Features
 
 ### ✅ Minimum Expected Features Implemented
 
-- **User Authentication** 🔒
-  - Secure registration and login with email/password
-  - Firebase authentication for secure access
+* **User Authentication** 🔒
 
-- **Profile Creation & Customization** 👤
-  - Name, location, preferred workouts, and fitness goals
-  - Example: Run 5 miles a week, preference: weightlifting
+  * Secure registration and login with email/password
+  * Firebase authentication for secure access
 
-- **Buddy Matching** 🤝
-  - Basic algorithm matches users with similar goals and workouts
-  - Location-based suggestions for nearby buddies
+* **Profile Creation & Customization** 👤
 
-- **In-App Messaging** 💬
-  - Chat functionality with matched buddies
-  - Share workout tips, arrange meetups, or provide motivation
+  * Name, location, preferred workouts, and fitness goals
+  * Example: Run 5 miles a week, preference: weightlifting
 
-- **Workout Tracking** 📊
-  - Log workouts including type, duration, and milestones
-  - Track weekly activity and progress
+* **Buddy Matching** 🤝
 
-- **Weekly Progress Reports** 🗓️
-  - Summaries of workouts completed, calories burned, and goals achieved
+  * Basic algorithm matches users with similar goals and workouts
+  * Location-based suggestions for nearby buddies
 
-- **Goal Setting & Notifications** ⏰
-  - Users can set targets like “Run 10 miles a week”
-  - Reminders for accountability
+* **In-App Messaging** 💬
 
-- **Virtual Fitness Library** 📚
-  - Access workout videos and articles to enhance routines
+  * Chat functionality with matched buddies
+  * Share workout tips, arrange meetups, or provide motivation
+
+* **Workout Tracking** 📊
+
+  * Log workouts including type, duration, and milestones
+  * Track weekly activity and progress
+
+* **Weekly Progress Reports** 🗓️
+
+  * Summaries of workouts completed, calories burned, and goals achieved
+
+* **Goal Setting & Notifications** ⏰
+
+  * Users can set targets like “Run 10 miles a week”
+  * Reminders for accountability
+
+* **Virtual Fitness Library** 📚
+
+  * Access workout videos and articles to enhance routines
 
 ---
 
 ### 🌟 Unique Features Already Implemented
 
+* **Progress Sharing with Buddies** 🔗
 
+  * Share workout logs and achievements with friends
 
-- **Progress Sharing with Buddies** 🔗
-  - Share workout logs and achievements with friends
+* **Personalized Exercise Plans** 🏃‍♂️
 
-- **Personalized Exercise Plans** 🏃‍♂️
-  - Plans for Weight Gain, Weight Loss, Balance, and more
+  * Plans for Weight Gain, Weight Loss, Balance, and more
 
-- **Shop for Fitness Products** 🛒
-  - Browse proteins and exercise-related products
+* **Shop for Fitness Products** 🛒
 
-- **Chat System** 💬
-  - Communicate with workout buddies in real-time
+  * Browse proteins and exercise-related products
 
-- **Responsive Design & Dark Mode** 🌙
-  - Mobile-friendly and visually customizable
+* **Chat System** 💬
 
-- **Generate Personalized Workout Plans** 📝
-  - Advanced routines based on user goals and preferences
+  * Communicate with workout buddies in real-time
 
+* **Responsive Design & Dark Mode** 🌙
+
+  * Mobile-friendly and visually customizable
+
+* **Generate Personalized Workout Plans** 📝
+
+  * Advanced routines based on user goals and preferences
+
+---
 
 ### 🚀 Future Features
-- **Goal-Based Challenges & Rewards** 🏆
-  - Invite buddies or join community challenges
-  - Earn virtual badges or points for completing challenges
-- **Post Page** 📸
-  - Users can post workout pictures, videos, tips, or plans
 
-- **Buying Functionality** 🛍️
-  - Enable actual purchase of fitness products
+* **Goal-Based Challenges & Rewards** 🏆
 
-- **Advanced Buddy Matching Algorithm** 🤖
-  - Matches based on activity, goals, and past workout logs
+  * Invite buddies or join community challenges
+  * Earn virtual badges or points for completing challenges
 
-- **Group Fitness & Live Leaderboard** 🏅
-  - Track group progress and encourage friendly competition
+* **Post Page** 📸
 
-- **Dashboard & Analytics** 📊
-  - Visual summary of workouts, progress, and buddy interactions
+  * Users can post workout pictures, videos, tips, or plans
 
-- **Social Media Sharing** 🌐
-  - Share achievements and challenges on social platforms
+* **Buying Functionality** 🛍️
 
+  * Enable actual purchase of fitness products
 
+* **Advanced Buddy Matching Algorithm** 🤖
+
+  * Matches based on activity, goals, and past workout logs
+
+* **Group Fitness & Live Leaderboard** 🏅
+
+  * Track group progress and encourage friendly competition
+
+* **Dashboard & Analytics** 📊
+
+  * Visual summary of workouts, progress, and buddy interactions
+
+* **Social Media Sharing** 🌐
+
+  * Share achievements and challenges on social platforms
+
+---
 
 ## ⚙️ Tech Stack
 
-Frontend -
-# javascript 
-# react.js
-# tailwind css
-# css
-Backend/Database -
-# Firebase
-# Firestore
+**Frontend:**
 
-Deployment -
-# Vercel
+* JavaScript
+* React.js
+* Tailwind CSS
+* CSS
 
+**Backend / Database:**
+
+* Firebase
+* Firestore
+
+**Deployment:**
+
+* Vercel
+
+---
 
 ## 🛠 Installation & Setup
 
@@ -180,12 +212,12 @@ ampyre-fitness-buddy-app/
 ├── vite.config.js                
 ├── netlify.toml                  
 └── README.md
+```
+
+---
 
 ## 📌 Author
 
-Ankit Kumar Pradhan
-
+**Ankit Kumar Pradhan**
 Web Developer & Fitness Enthusiast
-
-GitHub-(https://github.com/AnkitPradhan2004)
-
+GitHub: [https://github.com/AnkitPradhan2004](https://github.com/AnkitPradhan2004)
