@@ -41,9 +41,11 @@ const Register = () => {
 
       await setDoc(doc(db, "users", cred.user.uid), {
         uid: cred.user.uid,
+        name: name,
         email: cred.user.email,
         displayName: name,
         photoURL: cred.user.photoURL || "",
+        interests: [],
         createdAt: Date.now(),
       });
 
@@ -56,8 +58,8 @@ const Register = () => {
         })
       );
 
-      navigate("/login");
       setDone(true);
+      setTimeout(() => navigate("/dashboard"), 1500);
     } catch (err) {
       const cleanedError = err.message.replace("Firebase:", "").trim();
       setError(cleanedError);

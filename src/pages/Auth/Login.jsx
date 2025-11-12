@@ -38,7 +38,7 @@ const Login = () => {
         })
       );
 
-      navigate("/");
+      navigate("/dashboard");
     } catch (err) {
       const cleanedError = err.message.replace("Firebase:", "").trim();
       setError(cleanedError);
