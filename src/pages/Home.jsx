@@ -292,7 +292,6 @@ const Home = () => {
     <p>© {new Date().getFullYear()} Ampyre Fitness Buddy. All rights reserved.</p>
   </div>
 </footer>
-
     </div>
   );
 };
